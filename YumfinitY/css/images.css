@@ -1,0 +1,35 @@
+/* Add these styles to your existing CSS */
+.cuisine-slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cuisine-slider {
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5s;
+}
+
+.cuisine-col {
+    flex: 0 0 calc(50% - 20px);
+    margin-right: 20px;
+}
+
+.cuisine-col:last-child {
+    margin-right: 0;
+}
+
+.cuisine-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.cuisine-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
